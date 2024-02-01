@@ -6,3 +6,5 @@ jobs:
     steps:
       - name: Use remote action
         uses: Maxitoth/My-first-public-Action@v1
+        with:
+          who-to-greet: 'maxi'
